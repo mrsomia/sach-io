@@ -14,12 +14,12 @@
 			name: 'Drunk Math',
 			link: 'https://drunk-math.vercel.app/',
 			github: 'https://github.com/mrsomia/drunk-math'
-		},
+		}
 	];
 </script>
 
-<main class="container px-6 py-6 bg-slate-800 text-white h-screen">
-	<h1 class="text-3xl font-bold py-4 text-orange-500 underline underline-offset-4">Sachin Somia</h1>
+<main class="px-6 py-6 mx-auto sm:max-w-screen-sm text-white">
+	<h1 class="text-2xl font-semibold py-2 text-orange-500">Sachin Somia</h1>
 	<p class="py-2">👋 Hi, I'm Sachin Somia, but most people call me Sach. I like making web apps.</p>
 	<p class="py-2">
 		You can find me on <a
@@ -28,7 +28,7 @@
 		>
 	</p>
 	<p class="py-2">Here's some things I made for myself.</p>
-	<h2 class="text-2xl py-3 font-semibold">Projects</h2>
+	<h2 class="text-xl py-2 font-medium">Projects</h2>
 	<ul class="space-y-2">
 		{#each projectLinks as link}
 			<li class="">
