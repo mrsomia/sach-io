@@ -41,11 +41,13 @@
 			<li class="">
 				<div class="flex space-x-2">
 					<a class="underline underline-offset-2 text-orange-500" href={link.link}>{link.name}</a>
-					<div class="w-5">
-						<a href={link.github}>
-							<GitHubIcon />
-						</a>
-					</div>
+					{#if link.github} 
+						<div class="w-5">
+							<a href={link.github}>
+								<GitHubIcon />
+							</a>
+						</div>
+					{/if}
 				</div>
 			</li>
 		{/each}
