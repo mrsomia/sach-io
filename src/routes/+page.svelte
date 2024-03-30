@@ -27,7 +27,7 @@
 			href="https://github.com/mrsomia">Github</a
 		>
 	</p>
-	<p class="py-2">Here's some things I made for myself.</p>
+	<p class="py-2">Here's some things I worked on.</p>
 	<h2 class="text-xl py-2 font-medium">Projects</h2>
 	<ul class="space-y-2">
 		{#each projectLinks as link}
