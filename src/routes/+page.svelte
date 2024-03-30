@@ -18,6 +18,11 @@
 	];
 </script>
 
+<svelte:head>
+  <title>Sachin Somia</title>
+  <meta name="description" content="A developer that likes the web" />
+</svelte:head>
+
 <main class="px-6 py-6 mx-auto sm:max-w-screen-sm text-white">
 	<h1 class="text-2xl font-semibold py-2 text-orange-500">Sachin Somia</h1>
 	<p class="py-2">👋 Hi, I'm Sachin Somia, but most people call me Sach. I like making web apps.</p>
