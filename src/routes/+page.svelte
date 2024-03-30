@@ -1,4 +1,6 @@
 <script>
+	import GitHubIcon from '$lib/GitHubIcon.svelte';
+
 	let projectLinks = [
 		{
 			name: 'Splash',
@@ -19,8 +21,8 @@
 </script>
 
 <svelte:head>
-  <title>Sachin Somia</title>
-  <meta name="description" content="A developer that likes the web" />
+	<title>Sachin Somia</title>
+	<meta name="description" content="A developer that likes the web" />
 </svelte:head>
 
 <main class="px-6 py-6 mx-auto sm:max-w-screen-sm text-white">
@@ -37,7 +39,14 @@
 	<ul class="space-y-2">
 		{#each projectLinks as link}
 			<li class="">
-				<a class="underline underline-offset-2 text-orange-500" href={link.link}>{link.name}</a>
+				<div class="flex space-x-2">
+					<a class="underline underline-offset-2 text-orange-500" href={link.link}>{link.name}</a>
+					<div class="w-5">
+						<a href={link.github}>
+							<GitHubIcon />
+						</a>
+					</div>
+				</div>
 			</li>
 		{/each}
 	</ul>
