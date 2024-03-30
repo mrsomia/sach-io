@@ -1,6 +1,6 @@
 # Sach.io
 
-A repo to house a simple webpage for my personal site
+A repo to house a simple webpage for my personal site the design for this was heavily insprired by [Steve Krouse]("https://stevekrouse.com/").
 
 ## Tech stack
 
