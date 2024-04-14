@@ -27,7 +27,7 @@
 
 <svelte:head>
 	<title>Sachin Somia</title>
-	<meta name="description" content="A developer that likes the web" />
+	<meta name="description" content="A web developer that likes javascript typescript and go. Based in Cork" />
 </svelte:head>
 
 <main class="px-6 py-6 mx-auto sm:max-w-screen-sm text-white">
