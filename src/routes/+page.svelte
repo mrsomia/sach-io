@@ -3,6 +3,11 @@
 
 	let projectLinks = [
 		{
+			name: 'Cash Game Calculator',
+			link: 'https://cash-game.vercel.app/',
+      github: 'https://github.com/mrsomia/cash-game'
+		},
+		{
 			name: 'Splash',
 			link: 'https://splash-pong.vercel.app/',
 			github: 'https://github.com/mrsomia/splash'
